@@ -1,8 +1,32 @@
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BiLogoTelegram } from "react-icons/bi";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
+const serviceId = import.meta.env.VITE_SERVICE_ID;
+const templateId = import.meta.env.VITE_TEMPLATE_ID;
+const publicKey = import.meta.env.VITE_PUBLIC_KEY;
 
 const Contact = () => {
+  const form = useRef<HTMLFormElement>(null);
+
+  const sendEmail = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (form.current !== null) {
+      emailjs.sendForm(serviceId, templateId, form.current, publicKey).then(
+        (result) => {
+          console.log(result.text);
+          form.current?.reset();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    }
+  };
+
   return (
     <section id="contact">
       <h5>Get In Touch</h5>
@@ -27,7 +51,7 @@ const Contact = () => {
             </a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
             name="name"
