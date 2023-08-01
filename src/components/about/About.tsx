@@ -2,6 +2,7 @@ import "./about.css";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
+import { BsGlobe } from "react-icons/bs";
 import ME from "../../assets/me2.jpeg";
 
 const About = () => {
@@ -24,9 +25,8 @@ const About = () => {
               <small>1+ Years Working</small>
             </article>
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>5+ Worldwide</small>
+              <BsGlobe className="about__icon" />
+              <h5>Web Development</h5>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
@@ -37,10 +37,12 @@ const About = () => {
 
           <p>
             {" "}
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-            adipisci, labore, molestias quia harum ullam ratione ipsum, alias
-            quibusdam sequi omnis. Veniam id quam tempore aut voluptate labore
-            temporibus totam.
+            I'm a skilled software developer with experience in TypeScript and
+            JavaScript and expertise in frameworks and libraries like React,
+            Next.JS, Node.JS, Django. I'm a quick learner and collaborate
+            closely with clients to create efficient, scalable, and
+            user-friendly solutions that solve real-world problems. Let's work
+            together to bring your ideas to life!
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -1,6 +1,6 @@
 import CTA from "./CTA";
 import "./header.css";
-import ME from "../../assets/me.jpg";
+import ME from "../../assets/myProfile.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container header__container">
         <h5>Hello I'm</h5>
         <h1>Patrick Onwuka</h1>
-        <h5 className="text-light">Frontend Developer</h5>
+        <h5 className="text-light">Web Developer</h5>
         <CTA />
         <HeaderSocials />
 

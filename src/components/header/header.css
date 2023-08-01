@@ -52,6 +52,11 @@ header {
   padding: 5rem 1.5rem 1.5rem 1.5rem;
 }
 
+.me > img {
+  object-fit: cover;
+  height: 100%;
+}
+
 /*  ============ ME ============ */
 .scroll__down {
   position: absolute;
@@ -64,11 +69,11 @@ header {
 
 /*  ========== MEDIA QUERIES (MEDIUM SCREEN) ========== */
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   header {
-    height: 68vh;
+    height: 9vh;
   }
-}
+} */
 
 /*  ========== MEDIA QUERIES (SMALL SCREEN) ========== */
 

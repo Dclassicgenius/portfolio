@@ -1,26 +1,6 @@
+import { frontendSkills, backendSkills } from "../../constants/constants";
 import "./experience.css";
 import { BsFillPatchCheckFill } from "react-icons/bs";
-
-const frontendSkills = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "React",
-  "Tailwind",
-  "Material UI",
-  "Bootstrap",
-  "NextJS",
-];
-
-const backendSkills = [
-  "NodeJs",
-  "Python",
-  "MongoDB",
-  "MySQL",
-  "Django",
-  "PostgreSQL",
-  "ExpressJs",
-];
 
 const Experience = () => {
   return (

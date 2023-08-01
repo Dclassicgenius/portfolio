@@ -6,10 +6,10 @@ const HeaderSocials = () => {
       <a href="https://github.com/Dclassicgenius" target="_blank">
         <BsGithub />
       </a>
-      <a href="https://twitter.com" target="_blank">
+      <a href="https://twitter.com/itzClassicpat" target="_blank">
         <BsTwitter />
       </a>
-      <a href="https://telegram" target="_blank">
+      <a href="https://t.me/noblehomme" target="_blank">
         <BsTelegram />
       </a>
     </div>
