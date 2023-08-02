@@ -34,14 +34,19 @@ const About = () => {
             </article>
           </div>
 
-          <p>
+          <p className="about__text">
             {" "}
-            I'm a skilled software developer with experience in TypeScript and
-            JavaScript and expertise in frameworks and libraries like React,
-            Next.JS, Node.JS, Django. I'm a quick learner and collaborate
-            closely with clients to create efficient, scalable, and
-            user-friendly solutions that solve real-world problems. Let's work
-            together to bring your ideas to life!
+            Driven and dedicated web developer with a strong foundation in
+            front-end development. Passionate about creating engaging and
+            user-friendly web applications using React, TypeScript, HTML, and
+            CSS. Experience in collaborating with cross-functional teams to
+            deliver high-quality software solutions. Solid understanding of
+            modern web development principles and best practices. Strong
+            problem-solving skills and a quick learner, always seeking
+            opportunities to expand knowledge and stay up-to-date with the
+            latest technologies. Committed to delivering clean, efficient, and
+            maintainable code. Looking to contribute to a dynamic development
+            team and make a positive impact in the world of web development.
           </p>
 
           <a href="#contact" className="btn btn-primary">
